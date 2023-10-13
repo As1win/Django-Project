@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% extends 'Base.html' %}
+{% block content %}
+<div class="container">
+    <h3 class="text-center text-success">{{msg}}</h3>
+    <h5 class="text-center text-danger">Thank You</h5>
+    <center><a href="{% url 'Shop:Allcategory' %}" style="margin-top:50px;; " class="btn btn-danger text-center"><b>Continue Shopping</b></a></center>
+
+
+
+</div>
+
+
+{% endblock %}
